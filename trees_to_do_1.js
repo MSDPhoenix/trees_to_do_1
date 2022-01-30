@@ -42,10 +42,10 @@ class BST {
                 }
             }
         }
-        // 5 if there is no root node, new_node becomes root node
+            // 5 if there is no root node, new_node becomes root node
         this.root = new_node;
-                                                log_string = log_string + new_node.value;
-                                                console.log("this branch: ",log_string)
+                                                                log_string = log_string + new_node.value;
+                                                                console.log("this branch: ",log_string)
         return this;
     }
 
